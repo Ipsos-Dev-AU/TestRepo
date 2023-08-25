@@ -3,7 +3,7 @@ library(shiny)
 ui <- fluidPage(
   textInput(
     inputId = "Name",
-    label = "Name"
+    label = Sys.getenv("my_var")
   )
 )
 
