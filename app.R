@@ -4,6 +4,10 @@ ui <- fluidPage(
   textInput(
     inputId = "Name",
     label = Sys.getenv("my_var")
+  ),
+  textInput(
+    inputId = "Name",
+    label = Sys.getenv("my_var2")
   )
 )
 
