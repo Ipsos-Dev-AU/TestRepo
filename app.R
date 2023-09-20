@@ -54,7 +54,7 @@ enviorment_status <- function() {
   )
 }
 
-enviorment_status()$enviorment
+enviorment_status()
 
 ui <- fluidPage(
   textInput(
